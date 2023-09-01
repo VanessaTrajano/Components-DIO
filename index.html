@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/card.css">
+    <title>Portal de Notícias Galactica</title>
+    <script src="./src/Components/CardNews.js" defer></script>
+    <script src="./src/Components/TituloDinamico.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <card-news 
+            autor = "Van" 
+            titulo = "Darth Vader Contrata Devs"
+            content = "Darth Vader procura desenvolvedores que saibam trabahar com web components"
+            link-url = "google.com"
+            image = "./assets/darthVader.jpg"
+            alt-text = "Imagem do Darth Vader"
+        ></card-news>
+        <card-news 
+            titulo = "Yoda convence republica a utilizar components"
+            content = "Yoda se pronuncia e choca republica"
+            link-url = "google.com"
+            alt-text = "Sem imagem"
+        ></card-news>
+    </div>
+</body>
+</html>
